@@ -176,9 +176,9 @@ h1 {
     }
     @font-face {
         font-family: "titulos";
-        src: url("FonteTitulo/RobotoMono-VariableFont_wght.ttf");
-    }
+        src: url("../../FonteTitulo/RobotoMono-VariableFont_wght.ttf");
+      }
     @font-face {
         font-family: "texto";
-        src: url("FonteTexto/ComicNeue-Regular.ttf");
+        src: url("../../FonteTexto/ComicNeue-Regular.ttf");
     }
