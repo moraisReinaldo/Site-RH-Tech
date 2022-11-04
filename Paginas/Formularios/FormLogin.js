@@ -5,10 +5,13 @@ function login(){
     let senha = document.getElementById("pwd").value;
 
     let cadastro = document.getElementById("texto")
-    cadastro.innerHTML = ("Cadastro concluido!");
+    cadastro.innerHTML = ("Entrou no sistema!");
 
-    window.location.href = "..//PaginaIncial//PaginaInicial.html";
+    if(nome == "admin@" && senha == "1234"){
+        alert("Entrou no sistema!")
+    }
 
-    alert("OIasdassad")
-
+/* window.location.assign("../PaginaIncial/PaginaInicial.html");
+    alert("Entrou no sistema!")
+*/
 }
