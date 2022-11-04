@@ -7,8 +7,10 @@ function login(){
     let cadastro = document.getElementById("texto")
     cadastro.innerHTML = ("Entrou no sistema!");
 
-    if(nome == "admin@" && senha == "1234"){
+    if(nome == "admin@admin.com.br" && senha == "123"){
         alert("Entrou no sistema!")
+    }else{
+        alert("Usuario Invalido!")
     }
 
 /* window.location.assign("../PaginaIncial/PaginaInicial.html");
