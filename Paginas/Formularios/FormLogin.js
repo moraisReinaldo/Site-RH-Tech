@@ -12,8 +12,4 @@ function login(){
     }else{
         alert("Usuario Invalido!")
     }
-
-/* window.location.assign("../PaginaIncial/PaginaInicial.html");
-    alert("Entrou no sistema!")
-*/
 }
