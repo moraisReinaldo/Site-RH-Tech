@@ -10,4 +10,5 @@ function cadastrar(){
 
     let saida = document.getElementById("fim");
     saida.innerHTML = "Cadastro concluido com os dados: <br> Nome: " + nomeI + "<br>Email: " + email + "<br>Lembrar: " + lembrar.checked;
+    return false;
 }
