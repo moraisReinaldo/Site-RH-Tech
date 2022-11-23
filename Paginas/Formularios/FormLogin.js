@@ -8,7 +8,8 @@ function login(){
         let cadastro = document.getElementById("s")
         cadastro.innerHTML = "Entrou no sistema!";
     }else{
-        alert("Usuario Invalido!")
+        let cadastro = document.getElementById("s")
+        cadastro.innerHTML = "Usuario ou senha invalido!";
     }
     return false;
 }
