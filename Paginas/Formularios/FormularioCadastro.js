@@ -5,10 +5,9 @@ function cadastrar(){
     let email = document.getElementById("email").value;
     let senha = document.getElementById("pwd").value;
     let radio = document.querySelector('input[name="v"]:checked').value;
-    var genero = document.getElementById("opcao").value;
-    let lembrar = document.getElementById("flexCheckChecked");
+    let lembrar = document.getElementById("flexCheckChecked").value;
 
-    let saida = document.getElementById("fim");
-    saida.innerHTML = "Cadastro concluido com os dados: <br> Nome: " + nomeI + "<br>Email: " + email + "<br>Lembrar: " + lembrar.checked;
-    return false;
+    let saida = document.getElementById("f");
+    saida.innerHTML = "<br> Cadastro concluido com os dados: <br> Nome: " + nomeI + "<br>Email: " + email;
+
 }

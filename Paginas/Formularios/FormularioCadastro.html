@@ -4,6 +4,7 @@
         <link rel="shortcut icon" type ="imagex/png" href="../../ImagensComuns/icone.png">
         <link rel="stylesheet" href="FormularioCadastro.css" type="text/css">
         <link href="../bootstrap.min.css" rel="stylesheet">
+        <script src="FormularioCadastro.js"></script>
         <title>Cadastro Rh Tech</title>
         <meta charset="utf-8"/>
     </head>
@@ -65,12 +66,9 @@
               <br>
             </div>
             <div class="btn-block">
-              <button onclick="return cadastrar()">Enviar</button>
+              <button type="button" onclick="cadastrar()">Enviar</button>
+              <p id ="f"></p>
             </div>
-          </form>
-          <div>
-            <p id = "fim"></p>
-          </div>
         </div>
       </body>
 </html>
