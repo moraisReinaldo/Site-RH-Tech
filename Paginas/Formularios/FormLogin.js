@@ -4,12 +4,11 @@ function login(){
 
     let senha = document.getElementById("pwd").value;
 
-    let cadastro = document.getElementById("texto")
-    cadastro.innerHTML = ("Entrou no sistema!");
-
     if(nome == "admin@admin.com.br" && senha == "123"){
-        alert("Entrou no sistema!")
+        let cadastro = document.getElementById("s")
+        cadastro.innerHTML = "Entrou no sistema!";
     }else{
         alert("Usuario Invalido!")
     }
+    return false;
 }
